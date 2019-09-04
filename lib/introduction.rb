@@ -16,6 +16,7 @@ def introduction_with_language_optional(name, language = "python")
 end
 
 introduction("Josh")
+introduction_with_language_optional("Edwin")
 introduction_with_language_optional("Edwin", " ruby")
 
 
