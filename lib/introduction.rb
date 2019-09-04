@@ -12,12 +12,12 @@ def introduction_with_language(name, language)
 end 
 
 def introduction_with_language_optional(name, language = "Ruby")
-  puts "Hi, my name is #{name} and I am learning to program in #{language}"
+  puts "Hi, my name is #{name} and I am learning to program in #{language}."
 end
 
 introduction("Josh")
 introduction_with_language("Edwin", "ruby")
-#introduction_with_language_optional("Edwin")
+introduction_with_language_optional("Edwin")
 
 
 
